@@ -29,4 +29,21 @@ async function loadDocs() {
   });
 }
 
+const sections = document.querySelectorAll('main section');
+const links = document.querySelectorAll('nav a');
+
+links.forEach((link, index) => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    // Remove active from all sections
+    sections.forEach(sec => sec.classList.remove('active'));
+    // Add active to clicked section
+    sections[index].classList.add('active');
+  });
+});
+
+// Optionally activate first section
+sections[0].classList.add('active');
+
 loadDocs();
