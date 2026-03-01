@@ -1,23 +1,15 @@
-sections:
-  - id: introduction
-    title: Introduction
-    content: |
-      Welcome to our documentation.
-      This section explains the basics.
-
-  - id: installation
-    title: Installation
-    content: |
-      To install the package, run:
-      ```
-      npm install my-package
-      ```
-      
-  - id: usage
-    title: Usage
-    content: |
-      Here's how to use it:
-      ```
-      import { myFunction } from 'my-package';
-      myFunction();
-      ```
+- title: Introduction
+  content: |
+    Welcome to our documentation. This is the intro section.
+- title: Installation
+  content: |
+    Step 1: Download the files
+    Step 2: Run setup
+- title: Usage
+  content: |
+    Here's how to use the app:
+    1. Open it
+    2. Enjoy!
+- title: API Reference
+  content: |
+    List of API endpoints and examples.
