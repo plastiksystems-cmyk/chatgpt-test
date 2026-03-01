@@ -1,0 +1,23 @@
+sections:
+  - id: introduction
+    title: Introduction
+    content: |
+      Welcome to our documentation.
+      This section explains the basics.
+
+  - id: installation
+    title: Installation
+    content: |
+      To install the package, run:
+      ```
+      npm install my-package
+      ```
+      
+  - id: usage
+    title: Usage
+    content: |
+      Here's how to use it:
+      ```
+      import { myFunction } from 'my-package';
+      myFunction();
+      ```
